@@ -38,40 +38,38 @@ NOTE: Parsing bigger files can last more than 50 Milliseconds. To avoid lower fr
 -----------------------------------------------------------------------------------------------------------
 
 ## Features
-Example with multiple code elements
+Example with multiple code elements adopted from Civilization VI:
 
-
-<img src="https://user-images.githubusercontent.com/92446154/137142748-e0fed7ce-2c1a-47eb-8fce-d0b5f2b20478.png" width="500" />
-
+<img src="https://github.com/flbrgit/GML/assets/92446154/57aecb7a-d26b-4439-af46-a477b85e4f42" width="500" />
 
 **Code:**
 ```
-<h3><style color="blue"/>Welcome to GML!</h3>
-<p><style color="black" size="20"/>
-This is a small example to show the most important features of GML:
+<p><style size="80" color="black" align="center"/>Ice Hockey Rink</p>
+<p><style size="60" color="black" align="center"/>Description</p>
+<p><style size="40" color="black"/>
+    Unlocks the Builder ability to construct an Ice Hockey Rink, unique to Canada.
+</p><p><style size="40" color="black"/>
+    +1 <img src="amenity"/> Amenity. +1 <img src="culture"/> Culture for each adjacent Tundra, Tundra Hills, 
+    Snow, and Snow Hills tile. Provides <img src="tourism"/> Tourism from Culture once Flight is unlocked. 
+    +2 <img src="food"/> Food and <img src="production"/> Production once the Professional 
+    Sports civic is unlocked. +4 <img src="culture"/> Culture if adjacent to a Stadium building. Can be built on Tundra, 
+    Tundra Hills, Snow, and Snow Hills. One per city. +2 Appeal.
 </p>
-<li><style color="black" size="20"/>
-- Images <img src="power"/>
- between text
- </li>
-<li><style color="black" size="20"/>
-- Text with automatic line-breaks if it gets to long for a surface
-</li>
-<li>
-<style color="green" size="20"/>- Colored text
-</li>
-<li><style marked="orange" size="20"/>
-- Marked text
-</li>
-<p><style color="black" size="20" display="underline" type="italic"/>
-Text in different styles
-</p>
-<p><style color="black" size="20" align="center"/>Text-align</p>
-<p><style color="black" size="15"/></p>
-<p><style color="black" size="40" display="underline" align="center" type="bold-italic"/>
-...and more!
-</p>
-<p><style color="black" size="15"/></p>
+<p><style size="20" color="black"/></p>
+<p><style size="60" color="black" align="center"/>Traits</p>
+<p><style size="10" color="black"/></p>
+<p><style size="40" color="black"/>Appeal to Adjacent Tiles: 2</p>
+<p><style size="40" color="black"/>+2 <img src="production"/> Production (requires Professional Sports)</p>
+<p><style size="40" color="black"/>+2 <img src="food"/> Food (requires Professional Sports)</p>
+<p><style size="10" color="black"/></p>
+<p><style size="50" color="black"/>Adjacency Bonus</p>
+<p><style size="10" color="black"/></p>
+<p><style size="40" color="black"/>+1 <img src="culture"/> Culture from each adjacent Tundra tile.</p>
+<p><style size="40" color="black"/>+1 <img src="science"/> Science from each adjacent Tundra (Hills) tile.</p>
+<p><style size="40" color="black"/>+1 <img src="faith"/> Faith from each adjacent Snow tile.</p>
+<p><style size="40" color="black"/>+3 <img src="food"/> Food if adjacent to a city center.</p>
+<p><style size="40" color="black"/>+3 <img src="production"/> Production if adjacent to a city center.</p>
+<p><style size="10" color="black"/></p>
 ```
 
 
